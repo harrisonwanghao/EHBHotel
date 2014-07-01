@@ -1,0 +1,177 @@
+            body {
+               background-image:url('/static/images/achtergrond.jpg');
+               width: 1024px;
+               height: 768px;
+            }
+            img.logo {
+            position:absolute;
+            top:35px;
+            left:527px
+            }
+            .inlog {
+
+                width: 250px;
+                margin: 400px ;
+                left: 140px;
+                padding: 10px;
+                position: absolute;
+
+
+                font-family: 'Raleway', 'Lato', Arial, sans-serif;
+                color: white;
+                text-shadow: 0 2px 1px rgba(0,0,0,0.3);
+            }
+
+
+
+
+
+
+            .inlog input[type=text],
+            .inlog input[type=password] {
+
+                width: 100%;
+                padding: 8px 4px 8px 15px;
+                margin-bottom: 0px;
+
+
+                border: 1px solid #505050;
+                border: 1px solid rgba(128,128,128);
+                background: rgba(0,0,0,0.15);
+                border-radius: 2px;
+                box-shadow:
+                    0 1px 0 rgba(128,128,128,0.2),
+                    inset 0 1px 1px rgba(0,0,0,0.1);
+                -webkit-transition: all 0.3s ease-out;
+                -moz-transition: all 0.3s ease-out;
+                -ms-transition: all 0.3s ease-out;
+                -o-transition: all 0.3s ease-out;
+                transition: all 0.3s ease-out;
+
+
+                font-family: 'Raleway', 'Lato', Arial, sans-serif;
+                color: black;
+                font-size: 13px;
+            }
+
+
+            .inlog input::-webkit-input-placeholder {
+                color: black;
+                text-shadow: 0 1px 0 rgba(128,128,128,0.15);
+            }
+
+            .inlog input:-moz-placeholder {
+                color: black;
+                text-shadow: 0 1px 0 rgba(128,128,128,0.15);
+            }
+
+            .inlog input:-ms-input-placeholder {
+                color: black;
+                text-shadow: 0 1px 0 rgba(128,128,128,0.15);
+            }
+
+            .inlog input[type=text]:hover,
+            .inlog input[type=password]:hover {
+                border-color: #808080;
+            }
+
+            .inlog input[type=text]:focus,
+            .inlog input[type=password]:focus,
+            .inlog input[type=submit]:focus {
+                box-shadow:
+                    0 1px 0 rgba(255,255,255,0.2),
+                    inset 0 1px 1px rgba(0,0,0,0.1),
+                    0 0 0 3px rgba(255,255,255,0.15);
+                outline: none;
+            }
+
+
+            .no-boxshadow .form-4 input[type=text]:focus,
+            .no-boxshadow .form-4 input[type=password]:focus {
+                outline: 1px solid white;
+            }
+
+
+
+            .inlog input[type=submit] {
+
+                width: 100px;
+                padding: 8px 5px;
+
+
+                background: linear-gradient(rgba(128,128,128,0.5), rgba(128,128,128,0.7));
+                border-radius: 5px;
+                border: 1px solid #808080;
+                box-shadow:
+                    inset 0 1px rgba(128,128,128,0.5),
+                    0 2px 1px rgba(0,0,0,0.1);
+                cursor: pointer;
+                transition: all 0.3s ease-out;
+
+
+                color: white;
+                text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+                font-size: 13px;
+                font-weight: bold;
+                font-family: 'Raleway', 'Lato', Arial, sans-serif;
+            }
+
+            .inlog input[type=submit]:hover {
+                box-shadow:
+                    inset 0 1px rgba(128,128,128,0.2),
+                    inset 0 20px 30px rgba(128,128,128,0.5);
+            }
+
+
+            .no-boxshadow .form-4 input[type=submit]:hover {
+                background: #808080;
+            }
+
+            .inlog label {
+                display: none;
+                padding: 0 0 5px 2px;
+                cursor: pointer;
+            }
+
+            .inlog label:hover ~ input {
+                border-color: #808080;
+            }
+
+            .no-placeholder .form-4 label {
+                display: block;
+            }
+
+
+            #inloggen{
+            position:absolute;
+            left: 100px;
+
+
+
+            }
+
+            #registreren{
+            position:absolute;
+            left:100px;
+            bottom:
+            }
+
+            ul{
+                float:left;
+                width:100%;
+                padding:0;
+                margin:0;
+                list-style-type:none;
+            }
+            il{
+                display:inline;
+            }
+            a
+            {
+                float:left;
+                width:6em;
+                text-decoration:none;
+                padding:0.2em 0.6em;
+                border-right:1px solid white;
+            }
+            a:hover {background-color:#ff3300;}

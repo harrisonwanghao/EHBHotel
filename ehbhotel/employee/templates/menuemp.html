@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+{% load ganalytics %}
+     <head>
+     <title>Resto</title>
+     <meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     <link rel="icon" href="{{ STATIC_URL }}images/logo.png">
+     <link rel="shortcut icon" href="{{ STATIC_URL }}images/logo.png" />
+     <link rel="stylesheet" href="{{ STATIC_URL }}css/style.css">
+	 <link rel="stylesheet" href="{{ STATIC_URL }}css/zerogrid.css" type="text/css" media="screen">
+	 <link rel="stylesheet" href="{{ STATIC_URL }}css/responsive.css" type="text/css" media="screen">
+     <link rel="stylesheet" href="{{ STATIC_URL }}css/prettyPhoto.css">
+     <script src="{{ STATIC_URL }}js/jquery.js"></script>
+     <script src="{{ STATIC_URL }}js/jquery-migrate-1.1.1.js"></script>
+     <script src="{{ STATIC_URL }}js/superfish.js"></script>
+     <script src="{{ STATIC_URL }}js/jquery.easing.1.3.js"></script>
+     <script src="{{ STATIC_URL }}js/sForm.js"></script>
+     <script src="{{ STATIC_URL }}js/jquery.prettyPhoto.js"></script>
+	 <script src="{{ STATIC_URL }}js/css3-mediaqueries.js"></script>
+     <script>
+     
+      
+      
+        $(document).ready(function(){
+    $("a[data-gal^='prettyPhoto']").prettyPhoto({theme:'facebook'});
+    
+    });      
+     </script>
+     <!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+         </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="{{ STATIC_URL }}js/html5shiv.js"></script>
+      <link rel="{{ STATIC_URL }}stylesheet" media="screen" href="css/ie.css">
+    <![endif]-->
+     {% ganalytics %}
+     </head>
+     <body>
+       <div class="main">
+<!--==============================header=================================-->
+  <header> 
+  <div class="zerogrid">
+    <div class="col-full">
+	<div class="wrap-col">
+    <h1><a href="/employee/dinner/menu/"><img src="{{ STATIC_URL }}images/logo.png" alt="EXTERIOR" width="100" height="100"></a> </h1>
+    
+         <div class="menu_block">
+           <nav>
+            <ul class="sf-menu">
+                   <li class="current"><a href="/employee/dinner/menu/">Menu</a></li>
+                <li><a href="/employee/dinner/starter/">Voorgerecht</a></li>
+		<li><a href="/employee/dinner/main/">Hoofdgerecht</a></li>
+		<li><a href="/employee/dinner/dessert/">Dessert</a></li>
+                <li><a href="/employee/dinner/preparation/">Bereiding</a></li>
+                 </ul>
+           </nav>
+           <div class="clear"></div>
+           </div>
+           <div class="clear"></div>
+		</div>
+      </div>
+    </div>
+</header>
+<!--=======content================================-->
+
+<div class="content">
+  <div class="zerogrid">
+    <div class="col-full">
+      <h2>WEEKMENU</h2>
+    </div>
+    <div class="clear"></div>
+	
+	<div class="row">
+    <div class="portfolio">
+      <div class="col-1-2">
+	  	<div class="wrap-col">
+	  	<a href="{{ STATIC_URL }}images/page1_img1.jpg" data-gal="prettyPhoto[1]"><span><img src="{{ STATIC_URL }}images/page1_img1.jpg" alt=""></span></a>
+		</div>
+	</div>
+      <div class="col-1-2">
+	  	<div class="wrap-col">
+	  	<a href="{{ STATIC_URL }}images/page1_img2.jpg" data-gal="prettyPhoto[1]"><span><img src="{{ STATIC_URL }}images/page1_img2.jpg" alt=""></span></a>
+		</div>
+	</div>
+      <div class="col-1-2">
+	  	<div class="wrap-col">
+	  	<a href="{{ STATIC_URL }}images/page3_img4.jpg" data-gal="prettyPhoto[1]"><span><img src="{{ STATIC_URL }}images/page3_img4.jpg" alt=""></span></a>
+		</div>
+	  </div>
+      <div class="col-1-2">
+	  <div class="wrap-col">
+	  	<a href="{{ STATIC_URL }}images/page3_img2.jpg" data-gal="prettyPhoto[1]"><span><img src="{{ STATIC_URL }}images/page3_img2.jpg" alt=""></span></a>
+		</div>
+	</div>
+    </div>
+    </div>
+   
+    
+      
+  </div>
+</div>
+<!--==============================footer=================================-->
+
+<footer>    
+  <div class="zerogrid">
+    <div class="col-full">
+		<div class="wrap-col">
+     
+	 	</div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
